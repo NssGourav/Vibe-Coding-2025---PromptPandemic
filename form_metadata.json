@@ -156,5 +156,146 @@
         },
         "prompt": "create a form about feedback of masterclass",
         "created_at": "2025-10-04T21:33:23.535528"
+    },
+    "505672142": {
+        "id": 505672142,
+        "definition": {
+            "clarification": null,
+            "fields": [
+                {
+                    "name": "full_name",
+                    "type": "text",
+                    "label": "Full Name",
+                    "validation": "required"
+                },
+                {
+                    "name": "email",
+                    "type": "email",
+                    "label": "Email Address",
+                    "validation": "required|email_format"
+                },
+                {
+                    "name": "shirt_size",
+                    "type": "text",
+                    "label": "Shirt Size (Select one):",
+                    "validation": "required"
+                }
+            ]
+        },
+        "prompt": "my friends want to buy shirt give different options for tehem to select the sizes and take their name and email as input too",
+        "created_at": "2025-10-04T23:02:39.422181"
+    },
+    "5141339749": {
+        "id": 5141339749,
+        "definition": {
+            "clarification": null,
+            "fields": [
+                {
+                    "name": "name",
+                    "type": "text",
+                    "label": "Your Name",
+                    "validation": "required"
+                },
+                {
+                    "name": "email",
+                    "type": "email",
+                    "label": "Email Address",
+                    "validation": "required|email_format"
+                },
+                {
+                    "name": "shirt_size",
+                    "type": "checkbox",
+                    "label": "Shirt Size",
+                    "options": [
+                        {
+                            "value": "small",
+                            "label": "Small"
+                        },
+                        {
+                            "value": "xl",
+                            "label": "XL"
+                        },
+                        {
+                            "value": "xxl",
+                            "label": "XXL"
+                        },
+                        {
+                            "value": "xxxl",
+                            "label": "XXXL"
+                        }
+                    ],
+                    "validation": "required"
+                }
+            ]
+        },
+        "prompt": "my friends want to buy shirt give different options for tehem to select the sizes and take their name and email as input too i want the sizes of shirt to be choosen one where there should be small xl xxl and xxxl as sizes and i want them to be choosen not typed",
+        "created_at": "2025-10-04T23:03:51.646087"
+    },
+    "7051600495": {
+        "id": 7051600495,
+        "definition": {
+            "clarification": null,
+            "fields": [
+                {
+                    "name": "full_name",
+                    "type": "text",
+                    "label": "Your Name",
+                    "validation": "required"
+                },
+                {
+                    "name": "email",
+                    "type": "email",
+                    "label": "Your Email",
+                    "validation": "required|email_format"
+                },
+                {
+                    "name": "selected_size",
+                    "type": "select",
+                    "label": "Select Size",
+                    "options": [
+                        {
+                            "value": "small",
+                            "text": "Small"
+                        },
+                        {
+                            "value": "xl",
+                            "text": "XL"
+                        },
+                        {
+                            "value": "xxl",
+                            "text": "XXL"
+                        }
+                    ],
+                    "validation": "required"
+                }
+            ]
+        },
+        "prompt": "my friends want to buy shirt give different options for them to select the sizes and sizes should be in a drop down box where xl and small and xxl are to be selected  and take their name and email as input too",
+        "created_at": "2025-10-04T23:04:53.557003"
+    },
+    "9571874522": {
+        "id": 9571874522,
+        "definition": {
+            "clarification": null,
+            "fields": []
+        },
+        "prompt": "adas",
+        "created_at": "2025-10-04T23:08:38.859199"
+    },
+    "8670773182": {
+        "id": 8670773182,
+        "definition": {
+            "clarification": null,
+            "fields": [
+                {
+                    "name": "user_name",
+                    "type": "text",
+                    "label": "Your Name",
+                    "validation": "required"
+                }
+            ]
+        },
+        "prompt": "make a simple form",
+        "created_at": "2025-10-04T23:15:47.017766"
     }
 }
